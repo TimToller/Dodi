@@ -6,6 +6,7 @@ using System.Linq;
 using UnityEngine.UI;
 using System;
 using System.Text.RegularExpressions;
+using Microsoft.CSharp;
 
 public class FileManager : MonoBehaviour
 {
@@ -154,18 +155,16 @@ public class FileManager : MonoBehaviour
         File.Delete(Application.persistentDataPath + "/data.dodi");
     }
 
-    public dynamic getQuestion()
+    public KeyValuePair<string, float> getQuestion()
     {
         switch (PlayerPrefs.GetString("activeGame")) {
             case "water":
                 return getRandQuestionPro();
             case "basketball":
                 return getRandQuestionNum();
-            case "chicken":
-                return getRandQuestionStr();
             default:
                 Debug.LogError("Unknown activeGame! (Spelling?)");
-                return null; 
+                return new KeyValuePair<string, float>(); 
             //etc...
         }
     }

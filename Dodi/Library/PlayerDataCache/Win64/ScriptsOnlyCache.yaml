@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - OmniSARTechnologies.LiteFPSCounter.LiteFPSCounter
     - PlayerStats
     - SCS
+    - ScoreOutput
     - TimeManager
     - WaterController
     Unity.2D.Tilemap.Editor.dll:
@@ -68,21 +69,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11436}
+      Script: {instanceID: 11440}
     - Class: 114
-      Script: {instanceID: 11468}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 11916}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12812}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13808}
     - Class: 114
-      Script: {instanceID: 14770}
+      Script: {instanceID: 14788}
     - Class: 114
-      Script: {instanceID: 15574}
+      Script: {instanceID: 15600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -125,25 +126,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11438}
     - Class: 114
-      Script: {instanceID: 11436}
+      Script: {instanceID: 11440}
     - Class: 114
-      Script: {instanceID: 11468}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 11916}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12812}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13808}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13920}
     - Class: 114
-      Script: {instanceID: 14770}
+      Script: {instanceID: 14788}
     - Class: 114
-      Script: {instanceID: 15574}
+      Script: {instanceID: 15600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -183,8 +184,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -200,45 +199,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11438}
     - Class: 114
-      Script: {instanceID: 11468}
+      Script: {instanceID: 11444}
     - Class: 114
-      Script: {instanceID: 11916}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 11962}
+      Script: {instanceID: 11608}
     - Class: 114
-      Script: {instanceID: 12606}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 11974}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 12812}
     - Class: 114
-      Script: {instanceID: 13112}
+      Script: {instanceID: 13034}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 13126}
     - Class: 114
-      Script: {instanceID: 13352}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13636}
+      Script: {instanceID: 13220}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13368}
     - Class: 114
-      Script: {instanceID: 13828}
+      Script: {instanceID: 13652}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13808}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 13844}
     - Class: 114
-      Script: {instanceID: 14770}
+      Script: {instanceID: 13992}
     - Class: 114
-      Script: {instanceID: 15438}
+      Script: {instanceID: 14788}
     - Class: 114
-      Script: {instanceID: 15574}
+      Script: {instanceID: 15462}
     - Class: 114
-      Script: {instanceID: 16662}
-    - Class: 114
-      Script: {instanceID: 50600}
+      Script: {instanceID: 15600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -281,19 +278,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11438}
     - Class: 114
-      Script: {instanceID: 11468}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12812}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 12828}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 14770}
+      Script: {instanceID: 14788}
     - Class: 114
-      Script: {instanceID: 15574}
+      Script: {instanceID: 15600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -321,6 +318,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
   - hash:
       serializedVersion: 2
       Hash: dac362aec30e75b5bdfe3eea60cdf384
@@ -363,6 +372,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: Mirror
     className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 972790812f537b7cc385606d0037d2f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerStats
   - hash:
       serializedVersion: 2
       Hash: 9c7c87712e298256d276eb96e02a57b1
@@ -453,12 +468,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.MultipleAdditiveScenes
     className: PhysicsCollision
-  - hash:
-      serializedVersion: 2
-      Hash: 769b3b15b8c7f08c5c030bc0d89d0188
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MCBlob
   - hash:
       serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
@@ -725,12 +734,6 @@ ScriptsOnlyBuild:
     className: MultiplexTransport
   - hash:
       serializedVersion: 2
-      Hash: caa533b001ae39b864ba8425019e2268
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Shadow
-  - hash:
-      serializedVersion: 2
       Hash: e87f50864f8a979f1228e8c69bd62658
     assemblyName: Mirror.Examples.Cloud.Pong.dll
     namespaceName: Mirror.Cloud.Examples.Pong
@@ -789,6 +792,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fd2f9322f4fbd78290c710a94a0725b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreOutput
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -891,6 +900,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TimeManager
+  - hash:
+      serializedVersion: 2
+      Hash: a54498ca46f77ab7a544915bbf620de3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: OmniSARTechnologies.LiteFPSCounter
+    className: LiteFPSCounter
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -1145,7 +1160,7 @@ ScriptsOnlyBuild:
     className: OnScreenButton
   - hash:
       serializedVersion: 2
-      Hash: 1fafa1ac890791ce35828e2a25a8a719
+      Hash: b56cda3d05945ffe1c24e798e1cd4f08
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FileManager
@@ -1457,6 +1472,12 @@ ScriptsOnlyBuild:
     className: FlexArrayActor
   - hash:
       serializedVersion: 2
+      Hash: 8fcebb5c8f96bc3e90d8c6cddb3d91ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: OmniSARTechnologies.LiteFPSCounter.Examples
+    className: SimpleSceneSwitcher
+  - hash:
+      serializedVersion: 2
       Hash: 9b5a106d716e10dbf0635b1180cc5e67
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Chat
@@ -1601,6 +1622,12 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
+      Hash: 7e5d5091b14672f4d8c1575153c1a0ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: OmniSARTechnologies.LiteFPSCounter.Examples
+    className: HeavyRenderingController
+  - hash:
+      serializedVersion: 2
       Hash: aa88ae22474df55295327e4ee99e5a24
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1623,12 +1650,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: NVIDIA.Flex
     className: FlexClothDeformation
-  - hash:
-      serializedVersion: 2
-      Hash: 7072231382eb3c4871b3dd75ad0227e1
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
   - hash:
       serializedVersion: 2
       Hash: 880d064aa7bf32abd8295b0fe07bcc13
@@ -1673,6 +1694,12 @@ ScriptsOnlyBuild:
     className: TouchSimulation
   - hash:
       serializedVersion: 2
+      Hash: 3e869c27826c9aba3d967c2183600f3e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: OmniSARTechnologies.Helper
+    className: TransformRotate
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1683,36 +1710,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: a54498ca46f77ab7a544915bbf620de3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: OmniSARTechnologies.LiteFPSCounter
-    className: LiteFPSCounter
-  - hash:
-      serializedVersion: 2
-      Hash: 8fcebb5c8f96bc3e90d8c6cddb3d91ed
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: OmniSARTechnologies.LiteFPSCounter.Examples
-    className: SimpleSceneSwitcher
-  - hash:
-      serializedVersion: 2
-      Hash: 7e5d5091b14672f4d8c1575153c1a0ee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: OmniSARTechnologies.LiteFPSCounter.Examples
-    className: HeavyRenderingController
-  - hash:
-      serializedVersion: 2
-      Hash: 3e869c27826c9aba3d967c2183600f3e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: OmniSARTechnologies.Helper
-    className: TransformRotate
-  - hash:
-      serializedVersion: 2
-      Hash: e18efe58e3e6ddb07fe7717e6173c9d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerStats
   platform: 19
   scenePathNames:
   - Assets/Scenes/01_Tutorial.unity
