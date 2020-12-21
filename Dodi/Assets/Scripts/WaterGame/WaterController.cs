@@ -22,6 +22,7 @@ public class WaterController : MonoBehaviour
     void Start()
     {
         actor = GetComponent<FlexSourceActor>();
+        actor.lifeTime = GameObject.Find("TimeManager").GetComponent<TimeManager>().timeRemaining;
         if(flex.maxParticles < timeInSeconds*1000)
         {
             Debug.LogError("ERROR, PLEASE INCREASE maxParticles IN FLEX CONTAINER!");

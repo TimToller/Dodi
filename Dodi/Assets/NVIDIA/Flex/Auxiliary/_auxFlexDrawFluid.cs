@@ -244,6 +244,11 @@ namespace NVIDIA.Flex
                 }
                 if (m_indexBuffer != null)
                 {
+                    if (indices.Length != m_indexBuffer.count)
+                    {
+                        m_indexBuffer.Release();
+                        m_indexBuffer = new ComputeBuffer(indices.Length, sizeof(int));
+                    }
                     m_indexBuffer.SetData(indices);
                 }
                 Vector3 boundsMin = Vector3.one * 1e10f, boundsMax = Vector3.one * 1e10f;

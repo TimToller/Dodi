@@ -84,13 +84,13 @@ public class FileManager : MonoBehaviour
             for (int i = 0; i < questionLines.Length; i++)
             {
                 //checks if the Syntax of the Text file is correct (every line contains a ;
-                if (!questionLines[i].Contains(';') && !questionLines[i].StartsWith("//"))
+                if (!questionLines[i].Contains(';') && !questionLines[i].StartsWith("//") && !String.IsNullOrWhiteSpace(questionLines[i]) && !String.IsNullOrEmpty(questionLines[i]))
                 {
                     //send error if not correct and break
                     Debug.LogError("ERROR, THE TEXT FILE IS FORMATTED WRONG! (Missing ;)");
                     break;
                 }
-                if(questionLines[i].StartsWith("//"))
+                if(questionLines[i].StartsWith("//") || String.IsNullOrWhiteSpace(questionLines[i]) || String.IsNullOrEmpty(questionLines[i]))
                 {
                     questionLines = RemoveIndices(questionLines, i);
                 }

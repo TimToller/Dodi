@@ -359,7 +359,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   question_field: {fileID: 1765028231}
-  TxtFile: {fileID: 4900000, guid: 06fa88dc40c48634a96daf92109da42f, type: 3}
+  TxtFile: {fileID: 4900000, guid: c491382c5153dc3489b320c273e0fd4d, type: 3}
+  dictCounterNum: 0
+  dictCounterStr: 0
+  dictCounterPro: 0
 --- !u!4 &539576705
 Transform:
   m_ObjectHideFlags: 0
