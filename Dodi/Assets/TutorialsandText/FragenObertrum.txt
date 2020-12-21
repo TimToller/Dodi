@@ -1,0 +1,63 @@
+Wie viele Gebietskörperschaften gab es 2011 in Obertrum?;9
+Wie viele Kinder aßen 2018/19 ein Mittagessen in den Tagesheimen Obertrums?;118
+In welchem Jahr wurde Obertrum urkundlich als Druma (später Obertrum) gennant?;1143
+Wie viele Auspendler zwischen 10 und 19km in Prozent von Schülerinnen und Studierende gab es 2011?;60.5
+Um wie viel Prozent hat sich die Anzahl der Frauen in der Gemeinde zwischen 2001 und 2011 verändert?;40.2
+Wann schließt sonntags das Freibad in Obertrum?;"Um 21Uhr"
+Wann wurde der Zusatzname 'am See' anerkannt?;1976
+In welchem Jahr wurde der Ortskern mit der Kirche im Großbrand zerstört?;1917
+Wann war die Wiedererrichtung der Kirche nach dem Großbrand abgeschlossen?;1923
+Wann war Obertrum der Drehort für den Film 'Der Seelenbräu?;1949
+Welcher Fluss überflutete große Teile des Ortszentrums?;"Matting"
+Wann wurde das Altenwohnhaus 'Jakobushaus' eingeweiht?;1998
+Wie viele Haushalte gab es 2001 mit mehr als 5 Personen?;131
+Von welchen Pfarrer wurde das Altenwohnhaus 'Jakobushaus' eingeweiht?;"Josef Meßner"
+Wann wurde die Gemeinde Obertrum am See zum Markt erklärt?;2000
+In welchen Sommer überschwemmte die Matting und der Kirchenstättbach den Ort?;2002
+Warum musste 2003 die Feuerwehr den Ort mit Trinkwasser versorgen?;"Aufgrund der Trockenheit!"
+Wann beginnt montags die Mittagspause der Amtsgemeinde?;12
+Wie viel km^2 hat die Fläche Obertrums?;21.27
+Auf welcher Höhe in Metern liegt Obertrum?;511
+Wie viele Einwohner hat Obertrum heute?;5901
+Wie lautet die Postleitzahl Obertrums?;5162
+Wie lautet die Gemeindekennziffer von Obertrum?;50327
+An welchem Wochentag hat das Amt am längsten geöffnet?;"Montag"
+Wie heißt eine Top-Sehenswürdigkeit für Kinder in Obertrum?;"Puppenwelt"
+Wie heißt die Gemeide-App von Obertrum?;"GEM2GO"
+Wie viele Katastralgemeinden hat Obertrum?;2
+Wie heißt der Bürgermeister von Obertrum?;"Simon Wallner"
+Wie viele Kinder besuchten 2018/19 das Tagesheim der Gemeinde?;236
+Zu welcher Partei gehoert der Bürgermeister von Obertrum?;"ÖVP"
+Wie viele Kilometer nördlich liegt Obertrum von der Landeshauptstadt Salzburg?;"15 Kilometer"
+Zu welcher Marktgemeinde gehört Obtertrum?;"Flachgau"
+Welches Tier ist auf den Wappen zu finden?;"Wolf"
+Welche Farbe hat das Tier auf den Wappen?;"rot"
+Was wird durch den Fisch auf den Wappen der Ortsgemeinschaft symbolisiert?;"Die Lage am See!"
+Um welche Uhrzeit befinden sich am meisten Besucher im Freibad?;"Um ca. 17Uhr!"
+In welcher Straße befindet sich das Museum?;"Kirchenstaettstraße"
+Wie viele Euros kostet der Tageseintritt für einen Erwachsenen ins Obertrumer-Freibad?;4.80
+Wie viel beträgt die Bevölkerungsdichte mit Einwohner pro km^2?;230
+Zu welchen politischen Bezirk gehört Obertrum?;"Salzburg-Umgebung"
+Zu welchen Staat gehoert Obertrum?;"Österreich"
+Welche Altersgruppe (Jung / Mittel / Alt) ist in den letzten 10Jahren am meisten zurück gegangen?;"Jung"
+Wie lautet die Vorwahl von Obertrum?;06219
+Wie viele Privathaushalte gab es 2011 insgesamt in Obertrum?;1869
+Wieviel Ein-Eltern-Familien gibt es in Prozent in Obertrum?;13.7
+Wie viel Menschen in Prozent gibt es über 65Jahren in Obertrum?;9.3
+Woher kommen die meisten Zuwanderer?;"Ehmalige Jugoslawien"
+Welche Bilanz ist die Einzige, welche bei der Bevölkerungsveränderung zurückgegangen ist?;"Die Binnenwanderungsbilanz"
+Um wie viel Promille hat sich die Geburtenbilanz bei der Bevölkerungsveränderung verändert?;3.7
+Um wie viel Prozent hat sich die Nicht-Erwerbspersonen-Anzahl zwischen 2001 und 2011 in der Gemeinde verändert?;5.3
+Um wie viel Prozent hat sich die Arbeitslosigkeit zwischen 2001 und 2011 in Obertrum geändert?;11.1
+Um wie viel Prozent hat sich der Teritäre Sektor der Erwerbstätigen nach OENACE-Abschnitten in den letzten 10Jahren verändert?;15.3
+Welcher Sektor hat sich bei der Anzahl der Erwerbstätigen am Meisten verändert?;"Primärer Sektor"
+Wie viele Kinder im Alter von 4Jahren besuchten 2017/18 ein Tagesheim?;61
+Wie viele Einpendler von Schülerinnen und Schülern gab es 2011?;38
+Um wie viele Prozent veränderte sich die Anzahl der Einpendler von SchülerInnen zwischen 2001 und 2011?;4.0
+Wie viele Gebäude gab es 2001 in Obertrum?;1027
+Wie viele Gebäude mit Wohnungen gab es 2011 in der Gemeinde?;1164
+Wie viele Einwohner gab es 1800 in Obertrum?;1170
+Wie viele Einwohner gibt es heute in Obertrum?;4901
+Wie heißt die Top-Sehenswürdigkeit im Naturschutzgebiet von Obertrum?;"Naturerlbenisweg"
+Test ob eh alles funktioniert;%20%
+Und noch einer;%3.2%
