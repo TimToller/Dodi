@@ -77,18 +77,22 @@ public class FileManager : MonoBehaviour
         //{
         //Read every Line in one by one and store it in an Array list
         string questionsUnsplit = TxtFile.ToString();
-            string[] questionLines = Regex.Split(questionsUnsplit, Environment.NewLine);
+        string[] questionLines = Regex.Split(questionsUnsplit, Environment.NewLine);
 
 
 
             for (int i = 0; i < questionLines.Length; i++)
             {
                 //checks if the Syntax of the Text file is correct (every line contains a ;
-                if (!questionLines[i].Contains(';'))
+                if (!questionLines[i].Contains(';') && !questionLines[i].StartsWith("//"))
                 {
                     //send error if not correct and break
                     Debug.LogError("ERROR, THE TEXT FILE IS FORMATTED WRONG! (Missing ;)");
                     break;
+                }
+                if(questionLines[i].StartsWith("//"))
+                {
+                    questionLines = RemoveIndices(questionLines, i);
                 }
 
                 //split the Line up into two parts
@@ -293,6 +297,25 @@ public class FileManager : MonoBehaviour
     public void Save()
     {
         SaveSystem.saveDodiStats(this);
+    }
+    private string[] RemoveIndices(string[] IndicesArray, int RemoveAt)
+    {
+        string[] newIndicesArray = new string[IndicesArray.Length - 1];
+
+        int i = 0;
+        int j = 0;
+        while (i < IndicesArray.Length)
+        {
+            if (i != RemoveAt)
+            {
+                newIndicesArray[j] = IndicesArray[i];
+                j++;
+            }
+
+            i++;
+        }
+
+        return newIndicesArray;
     }
 
 }
