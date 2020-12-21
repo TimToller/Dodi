@@ -58,5 +58,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-+Dodi/Library/Artifacts
-+Dodi/Temp
+Dodi/Library/Artifacts
+Dodi/Temp
