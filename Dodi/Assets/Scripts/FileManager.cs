@@ -56,26 +56,6 @@ public class FileManager : MonoBehaviour
 
     public void ReadFromFile()
     {
-
-
-        /*if(SaveSystem.LoadData()!=null)
-        {
-            DodiData data = SaveSystem.LoadData();
-
-            questionsListNum = data.currentQuestionsListNum;
-            questionsListStr = data.currentQuestionsListStr;
-            questionsListPro = data.currentQuestionsListPro;
-
-            dictCounterNum = data.questionIndexNum;
-            dictCounterStr = data.questionIndexStr;
-            dictCounterPro = data.questionIndexPro;
-
-            print(data.questionIndexNum);
-            print(questionsListNum.ElementAt(dictCounterNum+1));
-            
-        }*/
-        //else
-        //{
         //Read every Line in one by one and store it in an Array list
         string questionsUnsplit = TxtFile.ToString();
         string[] questionLines = Regex.Split(questionsUnsplit, Environment.NewLine);
@@ -143,8 +123,6 @@ public class FileManager : MonoBehaviour
                     break;
 
                 }
-                
-            //}
             shuffle();
 
         }
